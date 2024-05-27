@@ -1,0 +1,6 @@
+PORT: 4001
+LOG_LEVEL: info
+APP_PATH: '/public'
+ASSET_PATH: '/assets'
+rpName: 'hassen'
+TIME_ZONE: 'Australia/Sydney'

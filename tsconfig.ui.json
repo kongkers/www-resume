@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/public",
+    "module": "es6",
+    "target": "es5",
+    "moduleResolution": "node",
+    "moduleDetection": "force",
+    "esModuleInterop": true,
+    "composite": true,
+    "strict": false,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "./src/config/*", "build/**/*", "./src/server/**/*", "**/*.test.tsx?$"]
+}

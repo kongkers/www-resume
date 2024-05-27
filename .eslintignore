@@ -1,0 +1,3 @@
+server/extensions/docs/public/documentation/*.js
+config/*.template
+config/*.json

@@ -1,0 +1,132 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.root {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.app-main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.hero-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.hero-left {
+  width: 50%;
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-color: #fc0;
+}
+.hero-right {
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 50%;
+  background-color: #fff;
+}
+.hero-profile {
+  width: 100%;
+  object-fit: contain;
+}
+
+.hero-intro {
+  z-index: 2;
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  padding: 32px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 400px;
+}
+.hero-name {
+  font-size: 4em;
+  font-weight: 800;
+}
+.job-description {
+  font-size: 800;
+  font-size: 2em;
+}
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.education-container {
+  width: 100%;
+  border: 1px solid #fc0;
+  display: flex;
+  flex-direction: row;
+}
+
+.education-menu {
+  flex: 1;
+  flex-basis: 30%;
+}
+.education-menu ul {
+  margin: 0;
+  padding: 16px;
+  list-style: none;
+}
+.education-content {
+  flex: 2;
+  flex-basis: 70%;
+}
+.resume-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.resume-list li {
+  padding: 8px;
+}
+
+.resume-item {
+  width: 100%;
+  border: 1px solid #fc0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nonwrap;
+}
+.resume-icon {
+  width: 100px;
+}
+.resume-icon img {
+  max-width: 76px;
+  max-height: 76px;
+  object-fit: contain;
+}
+.resume-content {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #000000;
+  flex-wrap: wrap;
+}
+.footer-col {
+  flex-basis: 33%;
+  flex: 1;
+  color: #fff;
+}
+.footer-legal-notice {
+  flex: 3;
+  flex-basis: 100%;
+  font-size: 14px;
+  color: #fff;
+  background-color: #000000;
+  text-align: center;
+  padding: 32px 0;
+}
