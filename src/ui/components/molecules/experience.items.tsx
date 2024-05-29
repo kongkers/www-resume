@@ -1,22 +1,27 @@
 import * as React from 'react';
 
-export default function ExperienceItem() {
+export type ExperienceListItem = {
+  logo: string;
+  timeframe: string;
+  position: string;
+  company: string;
+  summary: string;
+}
+
+export type ExperienceItemProps = {
+  item: ExperienceListItem;
+}
+export default function ExperienceItem(props: ExperienceItemProps) {
   return(
     <div className="resume-item">
       <div className="resume-icon">
-        <img src="https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/activity/supermarkets_division_logo.png" />
+        <img src={props.item.logo} />
       </div>
       <div className="resume-content">
-        <h3>2019 to Present</h3>
-        <h1>Technical Lead</h1>
-        <h4>WooliesX</h4>
-        <div className="resume-summary">
-          This is a summary of the work done here.
-          <ul>
-            <li>Did stuff</li>
-            <li>Did some more stuff</li>
-          </ul>
-        </div>
+        <h3>{props.item.timeframe}</h3>
+        <h1>{props.item.position}</h1>
+        <h4>{props.item.company}</h4>
+        <div className="resume-summary" dangerouslySetInnerHTML={{__html: props.item.summary}} />
       </div>
     </div>
   )
