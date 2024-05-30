@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 :root {
     font-family: 'Poppins', sans-serif;
 }
@@ -15,6 +18,22 @@ body {
   width: 100%;
   flex-direction: column;
 }
+.nav-menu {
+  padding: 16px 8px;
+  height: 36px;
+  font-size: 1.3em;
+}
+.nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-menu li {
+  float: left;
+  padding: 0 0 0 24px;
+  cursor: pointer;
+}
+
 .hero-container {
   display: flex;
   width: 100%;
@@ -52,6 +71,10 @@ body {
   font-size: 4em;
   font-weight: 800;
 }
+.hero-welcome {
+  font-size: 1.2em;
+  font-weight: 600;
+}
 .job-description {
   font-size: 800;
   font-size: 2em;
@@ -71,6 +94,13 @@ body {
 .education-menu {
   flex: 1;
   flex-basis: 30%;
+  top: 0;
+}
+.education-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 1.8em;
 }
 .education-menu ul {
   margin: 0;
@@ -80,6 +110,9 @@ body {
 .education-content {
   flex: 2;
   flex-basis: 70%;
+}
+.education-content h2 {
+  font-size: 2.5em;
 }
 .resume-list {
   margin: 0;
