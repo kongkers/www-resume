@@ -28,7 +28,7 @@ const experienceList = [{
     company: 'Accenture',
     summary: 'This is a summary',
   }, {
-    logo: 'https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/activity/supermarkets_division_logo.png',
+    logo: '/public/assets/excelera_round@2x.png',
     timeframe: '2008 to Present',
     position: 'Senior Software Engineer',
     company: 'Excelera Pty Ltd',
@@ -39,7 +39,7 @@ export default function App() {
     <div className="app-main">
       <div className="hero-container">
         <div className="hero-left">
-
+          <img src="/public/assets/dk_logo_v2.png" />
         </div>
         <div className="hero-right">
           <div className="nav-menu">
@@ -118,20 +118,24 @@ export default function App() {
           </div>
         </div>
         <div id="experience" className="education-content">
-          <h2>Experience</h2>
-          <ul className="resume-list">
-            { experienceList.map(item => (
-              <li>
-                <ExperienceItem item={item} />
-              </li>
+          <div>
+            <h2>Experience</h2>
+            <ul className="resume-list">
+              {experienceList.map(item => (
+                <li>
+                  <ExperienceItem item={item}/>
+                </li>
               ))
-            }
-          </ul>
-          <h2 id="education">Education</h2>
-          <ul className="resume-list">
-            <li>1996-2000</li>
-            <li>1990-1996</li>
-          </ul>
+              }
+            </ul>
+          </div>
+          <div>
+            <h2 id="education">Education</h2>
+            <ul className="resume-list">
+              <li>1996-2000</li>
+              <li>1990-1996</li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="footer">
