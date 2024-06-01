@@ -37,37 +37,39 @@ const experienceList = [{
 export default function App() {
   return(
     <div className="app-main">
+      <div className="nav-menu">
+        <div className="main-menu">
+          <ul>
+            <li>
+              <a href="#about-me">About</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#education">Education</a>
+            </li>
+            <li>
+              <a href="#tech-stack">Tech Stack</a>
+            </li>
+          </ul>
+        </div>
+        <img src="/public/assets/dk_logo_v2.png"/>
+      </div>
       <div className="hero-container">
         <div className="hero-left">
-          <img src="/public/assets/dk_logo_v2.png" />
         </div>
         <div className="hero-right">
-          <div className="nav-menu">
-            <ul>
-              <li>
-                <a href="#about-me">About</a>
-              </li>
-              <li>
-                <a href="#experience">Experience</a>
-              </li>
-              <li>
-                <a href="#skills">Skills</a>
-              </li>
-              <li>
-                <a href="#education">Education</a>
-              </li>
-              <li>
-                <a href="#tech-stack">Tech Stack</a>
-              </li>
-            </ul>
-          </div>
         </div>
         <div className="hero-intro">
           <div className="hero-welcome">
             HEY! I AM
           </div>
           <div className="hero-name">
-          David Kong
+            David Kong
           </div>
           <div className="job-description">
             <TypeAnimation
@@ -90,7 +92,7 @@ export default function App() {
       </div>
       <div id="about-me" className="about-container">
         <div className="hero-right">
-          <img src="/public/assets/profile@2x.jpg" className="hero-profile" />
+          <img src="/public/assets/profile@2x.jpg" className="hero-profile"/>
         </div>
 
         <div className="hero-right">
@@ -99,10 +101,12 @@ export default function App() {
             I'm a multi-discipline software engineer with an innate curiousity that loves to tinker.
             With extensive experience in DevOps, software architecture, systems integration and backend development.
             <p>
-            I have been working for WooliesX for the last 5 years, building and supporting the Everyday Rewards App for both Australia and NZ.
+              I have been working for WooliesX for the last 5 years, building and supporting the Everyday Rewards App
+              for both Australia and NZ.
             </p>
             <p>
-            I have a proven track record for building and scaling applications to millions of users, with an emphasis on security.
+              I have a proven track record for building and scaling applications to millions of users, with an emphasis
+              on security.
             </p>
           </div>
         </div>
@@ -111,9 +115,15 @@ export default function App() {
         <div className="education-menu">
           <div className="education-sticky">
             <ul>
-              <li>Experience</li>
-              <li>Skills</li>
-              <li>Education</li>
+              <li>
+                <a href="#experience">Experience</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#education">Education</a>
+              </li>
             </ul>
           </div>
         </div>
