@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="110mm"
+   height="115mm"
+   viewBox="0 0 110 115"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="dk_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.77771465"
+     inkscape:cx="-22.501826"
+     inkscape:cy="244.94845"
+     inkscape:window-width="1993"
+     inkscape:window-height="1081"
+     inkscape:window-x="1361"
+     inkscape:window-y="1575"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     width="110mm" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect24"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath20">
+      <rect
+         style="display:block;fill:#ffffff;stroke-width:0.897763"
+         id="rect22"
+         width="80.733826"
+         height="61.152756"
+         x="12.858172"
+         y="174.83725" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff7f2a;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect31"
+       width="116.35051"
+       height="18.71134"
+       x="21.45768"
+       y="-12.12901"
+       transform="rotate(45)" />
+    <rect
+       style="fill:#ff7f2a;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect31-2"
+       width="116.35051"
+       height="18.71134"
+       x="-60.948601"
+       y="-88.988609"
+       transform="rotate(135)" />
+    <rect
+       style="fill:#ff7f2a;stroke-width:0.256544"
+       id="rect61"
+       width="20"
+       height="39.804123"
+       x="3.7493763"
+       y="6.5963655" />
+    <rect
+       style="fill:#ff7f2a;stroke-width:0.256544"
+       id="rect61-9"
+       width="20"
+       height="39.804123"
+       x="3.7493837"
+       y="62.295391" />
+  </g>
+</svg>
