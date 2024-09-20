@@ -13,7 +13,13 @@ export default function NavigationMenu() {
   if(scrollY > top) {
     return(
       <div className="navigation-menu shadow">
-          <ul>
+        <div className="nav-logo">
+          <a href="#home">
+            <img src="/public/assets/dk_logo.svg" height="36"/>
+          </a>
+        </div>
+        <div className="horizontal-menu">
+        <ul>
             <li>
               <a href="#about-me">About</a>
             </li>
@@ -27,6 +33,7 @@ export default function NavigationMenu() {
               <a href="#education">Education</a>
             </li>
           </ul>
+        </div>
       </div>
     );
   }

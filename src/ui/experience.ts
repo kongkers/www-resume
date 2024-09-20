@@ -1,6 +1,6 @@
 const experienceList = [
   {
-    logo: 'https://prod.mobile-api.woolworths.com.au/zeus/mnemosyne/v1/public/activity/supermarkets_division_logo.png',
+    logo: '/public/assets/rushfaster_round_logo.png',
     timeframe: '2023 to Present',
     position: 'Senior Full Stack Engineer',
     company: 'Rushfaster',
@@ -51,7 +51,7 @@ const experienceList = [
     <ul>
       <li>Security hardening of the Kubernetes cluster to pass PCI compliance</li>
       <li>Designed and implemented centralized logging system utilizing Sumologic and Fluentd</li>
-      <li>Designed and implemented Kubernetes cluster and micro service monitoring and alerting using Prometheus and Grafana. This included instrumenting each microservice, and designing and build the dashboards for each service.</li>
+      <li>Designed and implemented Kubernetes cluster and micro service monitoring and alerting using Prometheus and Grafana. This included instrumenting each microservice, and designing and building the dashboards for each service.</li>
       <li>Building a business metrics dashboard using NodeJS, Postresql, Prometheus and Grafana that provided real-time business statistics such as user registrations and user activity</li>
       <li>Designing performance tests for the infrastructure that could also be used for end-to-end testing using Artillery.io</li>
       <li>Building mock environments for testing</li>

@@ -15,9 +15,8 @@ const educationList = [{
   certification: 'High School',
   summary: `<ul>
               <li>Awarded Dux for year 12.</li>
-              <li>Presented school in the debating team</li>
+              <li>Awarded Dux for year 11.</li>
             </ul>`
 }];
 
 export default educationList;
-

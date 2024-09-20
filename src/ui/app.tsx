@@ -7,10 +7,13 @@ import experienceList from './experience.js';
 import educationList from './education.js';
 import NavigationMenu from './components/molecules/navigation.menu.js';
 import { softwareSkills, devopsSkills } from './skills.js';
+import SideMenu from './components/molecules/side.menu.js';
+
 
 export default function App() {
+
   return(
-    <div className="app-main">
+    <div id="home" className="app-main">
       <NavigationMenu />
       <div className="nav-menu">
         <div className="main-menu">
@@ -40,7 +43,7 @@ export default function App() {
         </div>
         <div className="hero-intro">
           <div className="hero-welcome">
-            HEY! I AM
+            👋 I'm
           </div>
           <div className="hero-name">
             David Kong
@@ -88,17 +91,7 @@ export default function App() {
       <div className="education-container">
         <div className="education-menu">
           <div className="education-sticky">
-            <ul>
-              <li>
-                <a href="#experience">Experience</a>
-              </li>
-              <li>
-                <a href="#skills">Skills</a>
-              </li>
-              <li>
-                <a href="#education">Education</a>
-              </li>
-            </ul>
+            <SideMenu />
           </div>
         </div>
         <div id="experience" className="education-content">

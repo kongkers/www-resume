@@ -5,7 +5,7 @@ import { StaticRouter } from 'react-router-dom/server.js';
 import { PassThrough } from 'stream';
 import { getCssFiles } from './utils/helpers.js';
 import { Html } from './html.js';
-import App from '../ui/app.js';
+import App from '../ui/app.v2.js';
 
 export async function render(ctx: Context) {
 
